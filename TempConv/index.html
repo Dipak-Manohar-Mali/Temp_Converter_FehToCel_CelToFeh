@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <form id="container" onsubmit="cal();return false">
+        <h4>Temperature Converter</h4>
+        <br />
+        <p>Temperature degrees conversions of Fahrenheit (°F), Celsius (°C)</p>
+        <br />
+    <div class="inputField">
+        <input type="number" id="inp">
+        <select name="type" id="typeOfTemp">
+            <option value="Fahrenheit">Fahrenheit (°F)</option>
+            <option value="Celsius">Celsius (°C)</option>
+        </select>
+    </div>
+   <input type="submit" class="btn">
+    <br />
+    <span id="resultP"></span>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
